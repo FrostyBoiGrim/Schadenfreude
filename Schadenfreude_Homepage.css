@@ -28,7 +28,7 @@ body {
 
 /* Hide the images by default */
 .mySlides {
-display: none;
+    display: none;
 }
 
 /* Next & previous buttons */
@@ -227,40 +227,39 @@ nav ul {
 .box1{
     border: black;
     border-style: solid;
-    width:655px; 
-    height: 350px;
+    width: 902px; 
+    height: 510px;
     margin: 20px;
 }
 .box2{
     border: black;
     border-style: solid;
-    width: 30%;
-    height: 350px;
+    width: 384;
+    height: 510px;
     margin: 20px;
     margin-left: 0px;
 }
 .box3 {
     border: black;
     border-style: solid;
-    width: 45%;
-    height: 200px;
+    width: 646px;
+    height: 366px;
     margin: 20px;
     margin-top: 0px;
 }
 .box4 {
     border: black;
     border-style: solid;
-    width: 45%;
-    height: 200px;
+    width: 646px;
+    height: 366px;
     margin: 20px;
     margin-left: 0px;
     margin-top: 0px;
 }
 .box5{
-    border: linear-gradient(to right, #ce8dbe 0%, #8d74b5 100%);
     border-style: solid;
-    width: 60%;
-    height: 250px;
+    width: 774px;
+    height: 438px;
     margin: 20px;
 }
 

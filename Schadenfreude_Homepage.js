@@ -17,6 +17,8 @@
   		}
 	}
 
+
+  
 ////////// Epic Carousel
 	var slideIndex = 1;
 showSlides(slideIndex);
