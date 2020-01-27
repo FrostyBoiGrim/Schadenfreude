@@ -3,6 +3,9 @@
         display: unset;
         justify-content: center;
     }
+    #block_container2 {
+        display: none;
+    }
     .box2 {
         display: none;
     }
@@ -12,12 +15,17 @@
     .box4 {
         display: none;
     }
-
-    @media (max-width:957px){
-        .box1{
-            width: 646px;
-            height: 366px
-        }
+    .box5{
+        display: none;
+    }
+    .text2{
+        display: none;
+    }
+    .text3{
+        display: none;
+    }
+    .dot2 {
+        display: none;
     }
 }
 
@@ -35,13 +43,18 @@
         display: flex;
         justify-content: center;
     }
-    
+    #block_container2 {
+        display: flex;
+        justify-content: center;
+    }
     .box1{
         border: black;
         border-style: solid;
         width: 902px; 
         height: 510px;
         margin: 20px;
+        max-width: 1000px;
+        position: relative;
     }
     .box2{
         border: black;
@@ -50,6 +63,8 @@
         height: 510px;
         margin: 20px;
         margin-left: 0px;
+        max-width: 1000px;
+        position: relative;
     }
     .box3 {
         border: black;
@@ -58,6 +73,8 @@
         height: 366px;
         margin: 20px;
         margin-top: 0px;
+        max-width: 1000px;
+        position: relative;
     }
     .box4 {
         border: black;
@@ -67,12 +84,24 @@
         margin: 20px;
         margin-left: 0px;
         margin-top: 0px;
+        max-width: 1000px;
+        position: relative;
     }
     .box5{
         border-style: solid;
         width: 774px;
         height: 438px;
         margin: 20px;
+        max-width: 1000px;
+        position: relative;
+    }
+    .box5-5{
+        border-style: solid;
+        width: 774px;
+        height: 438px;
+        margin: 20px;
+        max-width: 1000px;
+        position: relative;
     }
     .box6{
         border: black;
@@ -91,9 +120,6 @@
     }
     
     
-    
-    
-    
     /* Circle Code */
     .dot1 {
         height: 100px;
@@ -102,6 +128,9 @@
         border-radius: 50%;
         display: inline-block;
         margin: 100px;
+        margin-top: 200px;
+        max-width: 1000px;
+        position: relative;
     }
     .dot2 {
         height: 100px;
@@ -110,7 +139,12 @@
         border-radius: 50%;
         display: inline-block;
         margin: 100px;
+        margin-top: 200px;
+        max-width: 1000px;
+        position: relative;
     }
+
+
 
 
 
@@ -122,6 +156,8 @@ body {
     font-size:15px;
     margin: 0px;
 }
+
+
 
 
 
@@ -175,8 +211,10 @@ body {
 
 /* Caption text */
 .text {
-    color: #f2f2f2;
-    font-size: 15px;
+    /*color: #f2f2f2;*/
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
