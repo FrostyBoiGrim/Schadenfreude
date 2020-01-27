@@ -1,10 +1,120 @@
-@media (max-width:700px){
+@media (max-width:1358px){
+    #block_container{
+        display: unset;
+        justify-content: center;
+    }
+    .box2 {
+        display: none;
+    }
+    .box3{
+        display: none;
+    }
+    .box4 {
+        display: none;
+    }
 
+    @media (max-width:957px){
+        .box1{
+            width: 646px;
+            height: 366px
+        }
+    }
 }
 
-@media (min-width:1920) {
-
+@media (min-width:1359px) {
+    .box6{
+        display: none;
+    }
+    .box6-5{
+        display: none;
+    }
 }
+
+/* Boxes */
+    #block_container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .box1{
+        border: black;
+        border-style: solid;
+        width: 902px; 
+        height: 510px;
+        margin: 20px;
+    }
+    .box2{
+        border: black;
+        border-style: solid;
+        width: 384;
+        height: 510px;
+        margin: 20px;
+        margin-left: 0px;
+    }
+    .box3 {
+        border: black;
+        border-style: solid;
+        width: 646px;
+        height: 366px;
+        margin: 20px;
+        margin-top: 0px;
+    }
+    .box4 {
+        border: black;
+        border-style: solid;
+        width: 646px;
+        height: 366px;
+        margin: 20px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .box5{
+        border-style: solid;
+        width: 774px;
+        height: 438px;
+        margin: 20px;
+    }
+    .box6{
+        border: black;
+        border-style: solid;
+        width: 164.4px;
+        height: 366px;
+        margin: 20px;
+        margin-left: 0px;
+    }
+    .box6-5{
+        border: black;
+        border-style: solid;
+        width: 164.4px;
+        height: 366px;
+        margin: 20px 0px 20px 0px ;
+    }
+    
+    
+    
+    
+    
+    /* Circle Code */
+    .dot1 {
+        height: 100px;
+        width: 100px;
+        background-color: #ce8dbe;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 100px;
+    }
+    .dot2 {
+        height: 100px;
+        width: 100px;
+        background-color: #5f4f7a;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 100px;
+    }
+
+
+
+
 
 body {
     text-align: center;
@@ -39,7 +149,7 @@ body {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: black;
+    color: #5f4f7a;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -207,80 +317,3 @@ nav ul {
 }
 .gradient-button-1 {background-image: linear-gradient(to right, #ce8dbe 0%, #8d74b5 51%, #ce8dbe 100%)}
 .gradient-button-1:hover { background-position: right center; }
-
-
-
-
-
-
-
-
-
-
-/* Boxes */
-    /** THANKS TO USER MrCode ON STACK OVERFLOW **/
-#block_container {
-    display: flex;
-    justify-content: center;
-}
-    /* back to my code */
-.box1{
-    border: black;
-    border-style: solid;
-    width: 902px; 
-    height: 510px;
-    margin: 20px;
-}
-.box2{
-    border: black;
-    border-style: solid;
-    width: 384;
-    height: 510px;
-    margin: 20px;
-    margin-left: 0px;
-}
-.box3 {
-    border: black;
-    border-style: solid;
-    width: 646px;
-    height: 366px;
-    margin: 20px;
-    margin-top: 0px;
-}
-.box4 {
-    border: black;
-    border-style: solid;
-    width: 646px;
-    height: 366px;
-    margin: 20px;
-    margin-left: 0px;
-    margin-top: 0px;
-}
-.box5{
-    border-style: solid;
-    width: 774px;
-    height: 438px;
-    margin: 20px;
-}
-
-
-
-
-
-/* Circle Code */
-.dot1 {
-    height: 100px;
-    width: 100px;
-    background-color: #ce8dbe;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 100px;
-}
-.dot2 {
-    height: 100px;
-    width: 100px;
-    background-color: #5f4f7a;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 100px;
-}
