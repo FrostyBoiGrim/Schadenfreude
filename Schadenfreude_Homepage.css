@@ -97,8 +97,8 @@
     }
     .box5-5{
         border-style: solid;
-        width: 774px;
-        height: 438px;
+        width: 1030px;
+        height: 582px;
         margin: 20px;
         max-width: 1000px;
         position: relative;
@@ -143,9 +143,67 @@
         max-width: 1000px;
         position: relative;
     }
+    .title{    
+        margin-left: 60px;
+        text-align: left;
+        width: 902px;
+        font-weight: 600;
+        font-size: 65px;
+    }
+    .author{
+        margin-left: 60px;
+        margin-top: 0px;
+        text-align: left;
+        width: 902px;
+        font-weight: 300;
+        font-size: 23px;
+        font-style: italic;
+    }
+    .paragraph {
+        margin-left: 40px;
+        text-align: left;
+        width: 902px;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .ad{
+        margin-right: 40px;
+        text-align: right;
+        border: black;
+        border-style: solid;
+        width: 300px;
+        height: 650px;
+    }
 
 
 
+
+            /* Create three equal columns that floats next to each other */
+            .column {
+                float: left;
+                  display: block;
+                min-width: 250px;
+                width: 25%;
+                min-height: 300px;
+                height: 10%;
+                padding: 10px;
+                margin: 2%;
+                margin-left: 5.5%;
+            }
+          
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+    
+            /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+                .column {
+                    width: 100%;
+                }
+            }
 
 
 
@@ -211,8 +269,8 @@ body {
 
 /* Caption text */
 .text {
-    /*color: #f2f2f2;*/
-    color: black;
+    color: white;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;  
     font-size: 20px;
     font-weight: 600;
     padding: 8px 12px;
